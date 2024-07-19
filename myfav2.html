@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Favorite Actresses Cards</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container {
+                width: 80%;
+                max-width: 1200px;
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .title {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                gap: 20px;
+            }
+            .card {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                width: 30%;
+                min-width: 250px;
+                max-width: 300px;
+                padding: 20px;
+                text-align: center;
+            }
+            .card img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                margin-bottom: 10px;
+            }
+            .card h3 {
+                margin: 10px 0;
+                font-size: 18px;
+            }
+            .card p {
+                font-size: 14px;
+                color: #555;
+            }
+            .card .movie {
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+            }
+            .card .movie img {
+                width: 50px;
+                height: 70px;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+            .card .movie .details {
+                text-align: left;
+            }
+            .card .movie .details h4 {
+                margin: 0;
+                font-size: 16px;
+            }
+            .card .movie .details p {
+                margin: 5px 0 0 0;
+                font-size: 14px;
+                color: #888;
+            }
+            .card .award {
+                border-radius: 20%;
+                display:flex;
+                justify-content:space-between; 
+                align-items: flex-end;
+                margin-right: 2px;
+                color:#3333;
+            }
+        .card .award 
+        .oscar { text-align: right;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">My Favorite Actresses Cards</div>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://cdn.britannica.com/49/137449-050-6F351130/Meryl-Streep-The-Devil-Wears-Prada.jpg?w=300" alt="Meryl Streep">
+                    <h3>Meryl Streep</h3>
+                    <p>Oscar Winner</p>
+                    <div class="movie">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/e/e7/The_Devil_Wears_Prada_main_onesheet.jpg" alt="Devil wears Prada">
+                        <div class="details">
+                            <h4>Devil wears Prada</h4>
+                            <p>Comedy/Drama</p>
+                            <p>6.9/10</p>
+                        </div>
+                    </div>
+                    <p>The G.O.A.T.</p>
+                    <div class ="award">
+                    <img src="https://i0.wp.com/www.wilsontrophy.ca/wp-content/uploads/2018/08/amc61.jpg?w=511&ssl=1" alt="award">  </p>
+                    <div class="oscar">
+                        <span class="wins">3 wins</span> <br>
+                        <span class="nominations">21 nominations</span> 
+                    </div>
+                    </div>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="https:///encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGvnKryF4qBC3WeeyQCJxRZofu7FF4Ktig-w&s" alt="Uma Thurman">
+                    <h3>Uma Thurman</h3>
+                    <p>Oscar Nominated</p>
+                    <div class="movie">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Kill_Bill_Volume_1.png/220px-Kill_Bill_Volume_1.png" alt="Kill Bill">
+                        <div class="details">
+                            <h4>Kill Bill</h4>
+                            <p>Action/Drama</p>
+                            <p>8.2/10</p>
+                        </div>
+                    </div>
+    <p>The Killer</p>
+    <p class="award">
+    <div class ="award"></div>
+    <img src="https://i0.wp.com/www.wilsontrophy.ca/wp-content/uploads/2018/08/amc61.jpg?w=511&ssl=1" alt="award"> 0 wins, 1 nominations </p>
+    </p>
+                </div>
+                <div class="card">
+                    <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/05/1200/675/KristenStewart2.jpg?ve=1&tl=1" alt="Kristen Stewart">
+                    <h3>Kristen Stewart</h3>
+                    <p>Oscar Nominated</p>
+                    <div class="movie">
+                        <img src="data:image/jpeg;base64,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" alt="Seberg">
+                        <div class="details">
+                            <h4>Seberg</h4>
+                            <p>Drama</p>
+                            <p>5.9/10</p>
+                        </div>
+                    </div>
+                    <p>The Drama Queen</p>
+                    <p class="award">
+                        <div class ="award"></div>
+                    <img src="https://i0.wp.com/www.wilsontrophy.ca/wp-content/uploads/2018/08/amc61.jpg?w=511&ssl=1" alt="award"> 0 wins, 1 nomination</p>
+                </div>
+    </body>
+    </html>
